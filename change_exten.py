@@ -19,6 +19,5 @@ def change_exten(directory, old_exten, new_exten, divider="/"):
 
 
 if __name__ == '__main__':
-    folder = "C:\\Users\\bjrat\\WebstormProjects\\ChessKingsCouncil\\app\\src\\game_logic"
+    folder = sys.argv[1]
     change_exten(folder, ".js", ".ts", "\\")
-
